@@ -36,8 +36,8 @@
 
                 <label for="mensagem">Mensagem</label>
                 <textarea cols="30" rows="10" id="mensagem" class="input-padrao" required></textarea>
-                <div>
-                    <p>Como prefere o nosso contato?</p>
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
 
                     <label for="radio-emailemail"><input type="radio" name="contato" value="radio-emailemail" id="radio-emailemail">Email</label>
                     
@@ -46,22 +46,45 @@
                     
 
                     <label for="radio-whatsapp"><input type="radio" name="contato" value="radio-whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
-                </div>
+                </fieldset>
 
-                <div>
-                    <p>Qual horario prefere ser atendido?</p>
+                <fieldset>
+                    <legend>Qual horario prefere ser atendido?</legend>
                     <select>
                         <option>Manhã</option>
                         <option>Tarde</option>
                         <option>Noite</option>
                     </select>
-                </div>
+                </fieldset>
 
                 <label><input type="checkbox" class="checkbox" checked> de receber nossas novidades por email?</label>
 
-                <input type="submit" value="Eviar formulario">
+                <input type="submit" value="Eviar formulario" class="enviar">
             </form>
-    </main>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
     <footer>
         <img src="../Modulo 2/img/logo-branco.png" alt="Logo de um homem de barba, oculos e alura escrito no meio só que branco">
         <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
