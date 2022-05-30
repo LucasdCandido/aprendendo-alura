@@ -12,6 +12,9 @@
   box-sizing: border-box;
   padding: 2rem 0 2rem 5rem;
 }
+.doferenciais__item--tempo {
+  
+}
 .item__titulo {
   color: var(--cinza-escuro);
   font-weight: 700;
