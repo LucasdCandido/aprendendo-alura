@@ -14,13 +14,19 @@
   font-family: 'Pacifico', cursive;
 }
 .cor-especial {
-  color: darkred;
+  color: darkred!important;
 }
 div>.botao-cor-especial {
   background-color: darkred;
   color: white;
 }
+footer>.botao-cor-especial {
+  background-color: darkred;
+  color: white;
+}
 section>.borda-cor-especial {
+  border-color: darkred;
+}div>.borda-cor-especial {
   border-color: darkred;
 }
 .card-posicao-imagem {
