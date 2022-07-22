@@ -5,6 +5,12 @@ const braco = document.querySelector("#braco");
 const controle = document.querySelectorAll(".controle-ajuste");
 console.log(controle)
 
+controle.forEach( (elemento) => {
+  elemento.addEventListener("click", (evento) => {
+    manipulaDados(evento.target.textContent)
+  })
+})
+
 somar.addEventListener("click", () => { manipulaDados("somar")
 });
 
