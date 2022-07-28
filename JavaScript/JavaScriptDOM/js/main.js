@@ -45,11 +45,6 @@ controle.forEach( (elemento) => {
   })
 });
 
-// somar.addEventListener("click", () => { manipulaDados("somar")
-// });
-
-// subtrair.addEventListener("click", () => { manipulaDados("subtrair")
-// });
 
 function manipulaDados(operacao, controle){
   const peca = controle.querySelector("[data-contador]")
@@ -69,23 +64,3 @@ function atualizaEstatistica(peca) {
     elemento.textContent = parseInt(elemento.textContent) + pecas[peca][elemento.dataset.estatistica]
   })
 }
-
-// let ultima_posicao_conhecida = 0;
-// let ticking = false;
-
-// function mostraPosicao (posicao_scrol) {
-//   console.log(posicao_scrol)
-// };
-
-// window.addEventListener("scroll", function(e) {
-//   ultima_posicao_conhecida = window.scrollY;
-
-//   if (!ticking) {
-//     window.requestAnimationFrame(function(){
-//       mostraPosicao(ultima_posicao_conhecida);
-//       ticking = false;
-//     })
-
-//     ticking = true;
-//   }
-// })
